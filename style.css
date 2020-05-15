@@ -1,0 +1,221 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+*:focus{
+    outline: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: #000;
+    color: white;
+    font-family:  sans-serif;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+#bgpic{
+    width:100%; height:100%;
+}
+#pic{
+    width:20%; height:42%; border-radius: 100%; margin-top:-590px;
+}
+..home img{
+    width: 100%;
+    -webkit-filter: grayscale(100%) contrast(100%);
+    filter: grayscale(100%) contrast(200%) brightness(60%);
+}
+
+aside{
+    position: fixed;
+    background: #222;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: 100%;
+    overflow: none;
+    z-index: 1;
+    text-align: center;
+    padding: 0;
+}
+aside img{
+    filter: grayscale(100%) contrast(50%) brightness(100%);
+    margin-bottom: -3px;
+}
+
+.material-icons.md-36{
+    font-size: 36px;
+}
+aside a{
+    display: block;
+    padding: 15px 0;
+    color: rgb(0,150,136);
+    transition: all 0.35s;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+}
+aside p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+aside a:hover{
+    background-color: #000;
+}
+
+main{
+    max-width: 100%;
+    background: #000;
+}
+
+header li{
+    float: left;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+header{
+    text-align: center;
+    letter-spacing: 2px;
+}
+header h2{
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: 4px;
+}
+header h5{
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: #b2b2b2;
+}
+
+
+
+.education,
+.project
+{
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-left: 160px;
+    margin-right: 20px;
+    padding-left: 10px ;
+    margin-top: 100px;
+}
+
+footer
+    {
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-left: 180px;
+    margin-right: 20px;
+    padding: 20px ;
+    display: flex;
+    margin-top: 110px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #222;
+    }
+
+.education h2{
+    font-weight: 300px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin: 50px 0 0 0;
+    letter-spacing: 4px;
+}
+
+.container{
+    width: 100%;
+    background-color: #222;
+}
+.intskills .card .box{
+   background-color: black;
+}
+.skills{
+    text-align: right;
+    padding-right: 20px;
+    line-height: 30px;
+    color: white;
+}
+.project a{
+    margin-left: 200px;
+    color: white;
+}
+.project a:hover{
+    background: #000;
+}
+
+
+
+/* 
+@media (max-width :768px){
+    .row-halves{
+        display: block;
+    }
+    .row halves .col{
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+} */
+    
+@media only screen and (min-width:401px) and (max-width:960px){
+    /* aside{
+        display: none;
+    } */
+    #bgpic{
+        visibility: hidden;
+    }
+    /* main{
+        width: 100%;
+        margin: 0 0 10px 0;
+        padding: 12px 25px;
+    }
+    header{
+        margin-top: 80px;
+    }
+    header h2{
+        font-size: 3em;
+        line-height: 1.4em;
+    }
+
+    header h5{
+        font-size: 1em;
+        letter-spacing: 2px;
+    }   
+    .mobile-nav{
+        position:  fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background: rgba(0,0,0,0.8);
+        z-index: 1;
+    } 
+    .mobile-nav a{
+        width: 100%;
+        color: #b2b2b2;
+        text-transform: uppercase;
+        font-size: 0.875em;
+        letter-spacing: 2px;
+        text-align: center;
+        padding: 10px 10px;
+        transition: all 0.35s;
+    }
+    .mobile-nav a:hover{
+        background: #b2b2b2;
+        color: #222;
+    } */
+   
+  }
+
