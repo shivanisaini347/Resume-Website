@@ -6,6 +6,4 @@
 * CSS
 * BOOTSTRAP
 
-## PUBLISHED AT
-* https://shivanisaini347.github.io/Resume-Website/.
 
